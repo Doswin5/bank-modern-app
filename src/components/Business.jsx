@@ -3,7 +3,7 @@ import { features } from '../constants'
 
 const Business = () => {
   return (
-    <div className="flex justify-between items-center text-white px-[80px] mt-[160px] gap-24">
+    <div id='features' className="flex sm:flex-row flex-col justify-between items-center text-white px-[16px] sm:px-[80px] pt-[160px] gap-24">
       <div className="flex flex-col w-[100%]">
         <h2>
           You do the business, we’ll handle the money.

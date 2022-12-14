@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-import { close, logo, menu } from '../assets'
+import { logo } from '../assets'
 import { navLinks } from '../constants'
 
 const Navbar = () => {
   return (
-    <nav className="fixed bg-primary w-full flex py-6 justify-between items-center px-[80px]">
+    <nav className="fixed bg-primary w-full flex py-6 justify-between items-center px-[16px] sm:px-[80px]">
       <img src={logo} alt="hoobank" className='w-[124px] h-[32px]'/>
 
       <ul className="list-none justify-end items-center sm:flex hidden">

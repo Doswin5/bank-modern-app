@@ -3,7 +3,7 @@ import { robot, discount } from '../assets'
 
 const Hero = () => {
   return (
-    <div className="flex justify-between items-center pt-[80px] w-full pl-[80px]">
+    <div id='home' className="flex justify-between items-center pt-[80px] w-full px-[16px] sm:pl-[80px]">
       <div className="flex flex-col text-white ">
         <div className="flex items-center gap-4">
           <img src={discount} alt="discount" className='w-[40px]'  />
@@ -18,7 +18,7 @@ const Hero = () => {
           We examine annual percentage rates, annual fees.
         </p>
       </div>
-      <img src={robot} alt="robot" className='w-[50%]' />
+      <img src={robot} alt="robot" className='w-[50%] hidden sm:block' />
     </div>
   )
 }

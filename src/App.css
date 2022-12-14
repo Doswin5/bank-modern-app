@@ -45,4 +45,13 @@ button {
   padding: 8px 24px;
   width: 150px;
   border-radius: 8px;
+  transition: .3s ease-in
+}
+
+a:hover {
+  color: #33BBCF;
+}
+
+button:hover {
+  background-color: #006e7c;
 }

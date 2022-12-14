@@ -4,7 +4,7 @@ import { clients } from '../constants'
 
 const Clients = () => {
   return (
-    <>
+    <div id='clients'>
       <div className="flex justify-between items-center px-[180px] my-[100px] w-full">
         {
           clients.map(client => (
@@ -20,7 +20,7 @@ const Clients = () => {
         </div>
         <button>Get Started</button>
       </div>
-    </>
+    </div>
   )
 }
 
