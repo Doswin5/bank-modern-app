@@ -10,7 +10,7 @@ const Hero = () => {
           <span className="text-gray-500"><span className="text-white">20%</span> DISCOUNT FOR <span className="text-white">1 MONTH</span> ACCOUNT</span>
 
         </div>
-        <h1>
+        <h1 className='leading-tight text-[60px]'>
           The Next <span className="text-gradient">Generation</span> Payment Method
         </h1>
         <p className='mt-[24px] w-[64%]'>

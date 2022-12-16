@@ -4,8 +4,8 @@ import { quotes } from '../assets'
 
 const Testimonials = () => {
   return (
-    <div className="flex flex-col text-white px-[80px]">
-      <div className="flex justify-between items-center gap-x-40">
+    <div className="flex flex-col text-white sm:px-[80px] px-[16px] sm:py-[100px]">
+      <div className="flex sm:flex-row flex-col justify-between items-center gap-x-40">
         <h2>
           What people are saying about us
         </h2>
@@ -14,7 +14,7 @@ const Testimonials = () => {
         </p>
       </div>
 
-      <div className="flex justify-between gap-16 mt-16">
+      <div className="flex sm:flex-row flex-col justify-between gap-16 mt-16">
         {
           feedback.map(item => (
             <div className="flex flex-col justify-between w-full gap-4">

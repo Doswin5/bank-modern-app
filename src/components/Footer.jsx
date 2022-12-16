@@ -5,7 +5,7 @@ import { footerLinks, socialMedia } from '../constants'
 const Footer = () => {
   return (
     <div className="bg-black mt-[80px] text-white">
-      <div className='flex justify-between w-full px-[80px] py-[40px]'>
+      <div className='flex sm:flex-row flex-col gap-8 sm:justify-between items-center w-full px-[16px] sm:px-[80px] py-[40px]'>
         <div className="flex flex-col items-start gap-4">
           <img src={logo} alt='logo' className='h-[100px] ' />
           <p>
@@ -13,7 +13,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex gap-40">
+        <div className="flex sm:flex-row flex-col sm:gap-40 gap-16">
           {footerLinks.map((footerLink, index) => {
             return (
               <div key={index} className='flex flex-col gap-4' >
@@ -31,13 +31,13 @@ const Footer = () => {
           })}
         </div>
       </div>
-      <hr className='mx-[80px]' />
-      <div className="py-8 px-[80px] flex justify-between items-center">
+      <hr className='sm:mx-[80px] mx-[16px]' />
+      <div className="py-8 px-[16px] sm:px-[80px] flex sm:flex-row flex-col-reverse justify-between items-center gap-4">
         <p>
           Copyright &copy; 2021 HooBank. All Rights Reserved.
         </p>
         
-        <div className="flex justify-end gap-8">
+        <div className="flex justify-end gap-4">
           {
             socialMedia.map(social => (
               <a href={social.link}>

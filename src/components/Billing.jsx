@@ -3,7 +3,7 @@ import { bill, apple, google } from '../assets'
 
 const Billing = () => {
   return (
-    <div id='product' className="flex justify-between items-center px-[80px] py-[100px] text-white w-full gap-24">
+    <div id='product' className="flex sm:flex-row flex-col justify-between items-center px-[16px] sm:px-[80px] py-[100px] text-white w-full gap-24">
       <img src={bill} alt="bill" className='w-[50%]' />
       <div className="flex flex-col w-[100%]">
         <h2>
